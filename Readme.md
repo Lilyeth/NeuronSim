@@ -14,14 +14,17 @@ Eventually axons would also be modelled, however right now they're not in immedi
 ## Node architecture
 
 Gate:
+
     Stores activation states
     Updates each timestep
 
 Channel:
+
     Stores gates
     Computes current through itself each timestep
 
 Node:
+
     Stores channels
     Stores electrical state and dimensions
     Computes axial currents to neighbours
